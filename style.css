@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+a {
+  cursor: pointer;
+  all: unset;
+}
+
+#inner {
+  max-width: 768px;
+  margin: 0 auto;
+  border: solid 1px;
+}
+.head-container {
+  width: 100%;
+}
+.head-box {
+  margin-top: 50px;
+
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+#head-title {
+  margin: 0 auto;
+  font-size: 70px;
+  font-weight: 900;
+  color: yellowgreen;
+}
